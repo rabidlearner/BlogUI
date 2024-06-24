@@ -5,11 +5,11 @@ import { AddCategoryComponent } from './features/category/add-category/add-categ
 
 const routes: Routes = [
   {
-    path: '/admin/categories',
+    path: 'admin/categories',
     component: CategoryListComponent 
   },
   {
-    path: '/admin/categories/add',
+    path: 'admin/categories/add',
     component: AddCategoryComponent
   }
 ];
